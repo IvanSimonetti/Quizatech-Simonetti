@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Login</title>
@@ -13,45 +15,52 @@
     
         <h1 class="animate__animated animate__bounce">Quizatech</h1>    
         <nav> 
-            <ul>
-               <li class="animate__animated animate__pulse">
-                   <a href="../index.html" class="Menu">Inicio</a>
-               </li>
-               <li class="animate__animated animate__pulse">
-                   <a href="productos.html" class="Menu">Productos</a>
-               </li>
-               <li class="animate__animated animate__pulse">
-                   <a href="pc-armadas.html" class="Menu">Pc Armadas</a>
-               </li>
-               <li class="animate__animated animate__pulse">
-                   <a href="novedades.html" class="Menu">Novedades</a>
-               </li>
-                <li class="animate__animated animate__pulse">
-                   <a href="contacto.html" class="Menu">Contacto</a>
-               </li>
-               <li class="animate__animated animate__pulse">
-                   <a href="ingresar.html" class="Menu">Ingresar</a>
-               </li>
-           </ul>  
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pc-armadas.html">Pc Armadas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bi bi-box-arrow-in-right" href="ingresar.html"></a>
+                </li>
+            </ul>  
        </nav>
     </header>
 
 <h2 class="animate__animated animate__backInLeft">INGRESAR</h2>
 
 <main class="formIngresar">                    
-    <form action="">
-       <h3>DATOS USUARIO</h3>
-       <label for="">Usuario</label>
-       <input type="text" placeholder= "Ingrese su nombre">
-       <label for="">Clave</label>
-       <input type="password" placeholder= "Ingrese clave">
-       <label for="">Edad</label>
-       <input type="number" placeholder= "Ingrese Edad">
-       <label for="">Comentario</label>
-       <textarea name="" id="" cols="25" rows="1"></textarea>
-       <input type="submit"value="Enviar">
-       <input type="reset">
-    </form>
+    <div class="row g-3">
+        <div class="col">
+            <label for="">Nombre</label>
+            <input type="text" class="form-control" placeholder="Primer nombre" aria-label="First name">
+        </div>
+        <div class="col">
+            <label for="">Apellido</label>
+            <input type="text" class="form-control" placeholder="Segundo nombre" aria-label="Last name">
+        </div>
+        <div class="col-sm-10"> 
+            <label for="">Email</label>
+            <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese su email">
+        </div>
+        <div class="col-sm-10">
+            <label for="">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Ingrese su contraseña">
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+    </div>
 </main>
 
 
@@ -59,12 +68,15 @@
     <h4>Redes Sociales</h4>
     <ul>  
         <li> 
+            <i class="bi bi-instagram"></i>
             <a href="https://www.instagram.com/quizatech/"target="_blank">Instagram</a>
         </li>    
         <li>
+            <i class="bi bi-facebook"></i>
             <a href="https://www.facebook.com/quizatech/" target="_blank">Facebook</a>
         </li>        
         <li>
+            <i class="bi bi-whatsapp"></i>
             <a href="https://web.whatsapp.com" target="_blank">Whatsapp</a>
         </li>
     </ul>
@@ -75,5 +87,5 @@
     <p class="credito">powered by Ivan Simonetti</p> 
 </footer>
 
-    </body>
+</body>
 </html>

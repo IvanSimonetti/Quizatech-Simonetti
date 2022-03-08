@@ -11,13 +11,20 @@ header{
     border-bottom: 1px solid gray;
 }
 
-main{
-    height: 1420px;
+.nav-link{
+    color:gray;
 }
+
+main{
+    text-align: center;
+}
+
+/*Titulos*/
 
 h1{
     height:1px;
     width: 5px;
+    margin-bottom:12px;
     font-size:68px;
 }
 
@@ -57,6 +64,8 @@ h4{
     margin-left:10px;
 }
 
+/*Grillas*/
+
 .grillaproductosUno{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -81,21 +90,21 @@ h4{
 /* Grilla Uno*/
 
 .productoUno{
-    grid-area: "a2";
+    grid-area: a1;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productoDos{
-    grid-area: "a3";
+    grid-area:a2;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productoTres{
-    grid-area: "a4";
+    grid-area: a3;
     justify-content: center;
     align-items: center;
     width: 400px;
@@ -104,46 +113,48 @@ h4{
 /* Grilla Dos*/
 
 .productosUno{
-    grid-area: "a1";
+    grid-area: a1;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productosDos{
-    grid-area: "a2";
+    grid-area: a2;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productosTres{
-    grid-area: "a3";
+    grid-area: a3;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productosCuatro{
-    grid-area: "b1";
+    grid-area: b1;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productosCinco{
-    grid-area: "b2";
+    grid-area: b2;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
 
 .productosSeis{
-    grid-area: "b3";
+    grid-area: b3;
     justify-content: center;
     align-items: center;
     width: 400px;
 }
+
+/* Imagenes*/
 
 .imagenPrincipal{
     width:100%;
@@ -164,31 +175,21 @@ img{
     margin-bottom:3%;   
 }
 
-.ubicacion{
-    width: 100%;
-    justify-content: center;
-}
 
 a{
     color:gray;
     margin-right: 10px;
     font-size: 23px;
     text-decoration: none;  
-
 }
 
-form{
-    width:23%;
-    margin-left:120px;
-    margin-bottom: 110px;
+.container{
+    display: grid;
+    text-align: center;
+    justify-content: center;
 }
 
-.formIngresar{
-    width:400px;
-    height:360px;
-    margin-left:466px;
-    margin-bottom: 110px;
-}
+/* Boton compra*/
 
 .botoncompraUno{
     display: grid;
@@ -225,31 +226,23 @@ li{
     display: inline-block;
     padding-right: 4px;
     margin-left: 15px;
-    margin-top: 13px;
     text-decoration:none;
     font-size: 28px;
     border-right: 1px solid gray;
     color: gray;
 }
 
-.datocontactoUno{
-    margin-left: 8px;
+p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
 }
 
-.datocontactoDos{
-    margin-right: 101px;
-    margin-top:-23px;
-    margin-bottom: 4px;
-}
-
-.credito{
-    margin-left: 1000px;
-}
+/*Footer*/
 
 footer{
-    width: 100%;
-    height: 50px;
-    font-size: 20px;
+    font-size: 1rem;
     text-align:center;
 }
 
@@ -261,10 +254,9 @@ footer{
     margin-top:50px;
 }
 
-p{
-    font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
+.ubicacion{
+    width: 100%;
+    justify-content: center;
 }
+
 

@@ -1,0 +1,89 @@
+    /*Grillas*/
+    
+    .grillaproductosUno{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100%;
+        grid-template-areas: "a1 a2 a3";
+    }
+    
+    .grillaproductosDos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: "a1 a2 a3"
+                             "b1 b2 b3";
+    }
+    
+    .tituloProductos{
+        margin-bottom: 62px;
+        height: 44px;
+        border-bottom: solid 1px $colorUno;
+    }
+    
+    /* Grilla Uno*/
+    
+    .productoUno{
+        grid-area: a1;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productoDos{
+        grid-area:a2;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productoTres{
+        grid-area: a3;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    /* Grilla Dos*/
+    
+    .productosUno{
+        grid-area: a1;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productosDos{
+        grid-area: a2;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productosTres{
+        grid-area: a3;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productosCuatro{
+        grid-area: b1;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productosCinco{
+        grid-area: b2;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    
+    .productosSeis{
+        grid-area: b3;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }

@@ -74,56 +74,56 @@ h4 {
   grid-area: a1;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 .productoDos {
   grid-area: a2;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 .productoTres {
   grid-area: a3;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 /* Grilla Dos*/
 .productosUno {
   grid-area: a1;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 .productosDos {
   grid-area: a2;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 .productosTres {
   grid-area: a3;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 .productosCuatro {
   grid-area: b1;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 100%; }
 
 .productosCinco {
   grid-area: b2;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 87%; }
 
 .productosSeis {
   grid-area: b3;
   justify-content: center;
   align-items: center;
-  width: 400px; }
+  width: 89%; }
 
 /* Imagenes*/
 img {
@@ -137,9 +137,9 @@ img {
     transform: scale(1.2, 0.1 0.1);
     transition: 3s; }
   img.imagenProd {
-    width: 400px;
+    width: 100%;
     margin-bottom: 1%;
-    margin-top: 15px; }
+    margin-top: 1px; }
 
 a {
   color: gray;
@@ -397,7 +397,8 @@ footer {
   /*Footer*/
   footer {
     font-size: 1rem;
-    text-align: center; }
+    text-align: center;
+    margin-top: 20px; }
     footer.footerContacto {
       width: 100%;
       height: 350px;

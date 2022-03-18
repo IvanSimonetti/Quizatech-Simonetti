@@ -39,9 +39,9 @@
         }
         
         &.imagenProd{ 
-            width: 400px;
+            width: 100%;
             margin-bottom:1%;
-            margin-top: 15px;
+            margin-top: 1px;
         }
     
     }
@@ -422,6 +422,7 @@
     footer{
         font-size: 1rem;
         text-align:center;
+        margin-top: 20px;
     
         &.footerContacto{
             width: 100%;

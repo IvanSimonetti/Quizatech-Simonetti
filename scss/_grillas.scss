@@ -32,16 +32,12 @@
     
     .productoDos{
         grid-area:a2;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .productoUno;
     }
     
     .productoTres{
         grid-area: a3;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .productoUno;
     }
     
     /* Grilla Dos*/
@@ -55,35 +51,27 @@
     
     .productosDos{
         grid-area: a2;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .productosUno;
     }
     
     .productosTres{
         grid-area: a3;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .productosUno;
     }
     
     .productosCuatro{
         grid-area: b1;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .productosUno;
     }
     
     .productosCinco{
         grid-area: b2;
-        justify-content: center;
-        align-items: center;
+        @extend .productosUno;
         width: 87%
     }
     
     .productosSeis{
         grid-area: b3;
-        justify-content: center;
-        align-items: center;
+        @extend .productosUno;
         width: 89%
     }

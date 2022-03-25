@@ -63,33 +63,27 @@
     
     button{
 
-        @mixin botones ($colorBtn , $colorUno){}
+        @mixin botones ($colorBtn , $colorUno){
+            background-color:$colorBtn;
+            color:$colorUno;
+        }
 
         &.botoncompraUno{
-            display: grid;
             @include botones(#33ccff, gray);
             align-items: center ;
             justify-content: center;
-            margin-top: 89px;
-            width: 150px;
         }
         
         &.botoncompraDos{
-            display: grid;
             @include botones(#33ccff, gray);
             align-items: center;
             justify-content: center;
-            margin-top: 163px;
-            width: 150px;
         }
         
         &.botoncompraTres{
-            display: grid;
             @include botones(#33ccff, gray);
             align-items: center;
             justify-content: center;
-            margin-top: 93px;
-            width: 150px;
         }
     }
        
@@ -135,6 +129,10 @@
             font-size: 20px;
             text-align:center;
             margin-top:50px;
+        }
+
+        &.footerProducto{
+            margin-top: 40px;
         }
      
     }
@@ -367,21 +365,18 @@
     /* Boton compra*/
         
     .botoncompraUno{
-        display: grid;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
         
     .botoncompraDos{
-        display: grid;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
         
     .botoncompraTres{
-        display: grid;
         align-items: center;
         justify-content: center;
         width: 100%;

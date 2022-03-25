@@ -70,11 +70,13 @@ h4 {
   border-bottom: solid 1px gray; }
 
 /* Grilla Uno*/
-.productoUno, .productoDos, .productoTres {
-  grid-area: a1;
+.grillaUno, .productoUno, .productoDos, .productoTres {
   justify-content: center;
   align-items: center;
   width: 100%; }
+
+.productoUno {
+  grid-area: a1; }
 
 .productoDos {
   grid-area: a2; }
@@ -83,11 +85,13 @@ h4 {
   grid-area: a3; }
 
 /* Grilla Dos*/
-.productosUno, .productosDos, .productosTres, .productosCuatro, .productosCinco, .productosSeis {
-  grid-area: a1;
+.grillaDos, .productosUno, .productosDos, .productosTres, .productosCuatro, .productosCinco, .productosSeis {
   justify-content: center;
   align-items: center;
   width: 100%; }
+
+.productosUno {
+  grid-area: a1; }
 
 .productosDos {
   grid-area: a2; }
@@ -99,12 +103,10 @@ h4 {
   grid-area: b1; }
 
 .productosCinco {
-  grid-area: b2;
-  width: 87%; }
+  grid-area: b2; }
 
 .productosSeis {
-  grid-area: b3;
-  width: 89%; }
+  grid-area: b3; }
 
 /* Imagenes*/
 img {
@@ -135,25 +137,22 @@ a {
 
 /* Boton compra*/
 button.botoncompraUno {
-  display: grid;
+  background-color: #33ccff;
+  color: gray;
   align-items: center;
-  justify-content: center;
-  margin-top: 89px;
-  width: 150px; }
+  justify-content: center; }
 
 button.botoncompraDos {
-  display: grid;
+  background-color: #33ccff;
+  color: gray;
   align-items: center;
-  justify-content: center;
-  margin-top: 163px;
-  width: 150px; }
+  justify-content: center; }
 
 button.botoncompraTres {
-  display: grid;
+  background-color: #33ccff;
+  color: gray;
   align-items: center;
-  justify-content: center;
-  margin-top: 93px;
-  width: 150px; }
+  justify-content: center; }
 
 ol {
   text-decoration: none;
@@ -189,6 +188,8 @@ footer {
     font-size: 20px;
     text-align: center;
     margin-top: 50px; }
+  footer.footerProducto {
+    margin-top: 40px; }
 
 .ubicacion {
   width: 60%;
@@ -248,7 +249,7 @@ footer {
     height: 27px;
     border-bottom: solid 1px gray; }
   /* Grilla Uno*/
-  .productoUno, .productoDos, .productoTres {
+  .productoUno {
     grid-area: a1;
     justify-content: center;
     align-items: center;
@@ -264,7 +265,7 @@ footer {
     align-items: center;
     width: 85%; }
   /* Grilla Dos*/
-  .productosUno, .productosDos, .productosTres, .productosCuatro, .productosCinco, .productosSeis {
+  .productosUno {
     grid-area: a1;
     justify-content: center;
     align-items: center;
@@ -336,17 +337,14 @@ footer {
     width: 100%; }
   /* Boton compra*/
   .botoncompraUno {
-    display: grid;
     align-items: center;
     justify-content: center;
     width: 100%; }
   .botoncompraDos {
-    display: grid;
     align-items: center;
     justify-content: center;
     width: 100%; }
   .botoncompraTres {
-    display: grid;
     align-items: center;
     justify-content: center;
     width: 100%; }

@@ -23,55 +23,61 @@
     
     /* Grilla Uno*/
     
+    .grillaUno{
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+    }
+    
     .productoUno{
         grid-area: a1;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .grillaUno;
     }
     
     .productoDos{
         grid-area:a2;
-        @extend .productoUno;
+        @extend .grillaUno;
     }
     
     .productoTres{
         grid-area: a3;
-        @extend .productoUno;
+        @extend .grillaUno;
     }
     
     /* Grilla Dos*/
     
+    .grillaDos{
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+    }
+
     .productosUno{
         grid-area: a1;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+        @extend .grillaDos;
     }
     
     .productosDos{
         grid-area: a2;
-        @extend .productosUno;
+        @extend .grillaDos;
     }
     
     .productosTres{
         grid-area: a3;
-        @extend .productosUno;
+        @extend .grillaDos;
     }
     
     .productosCuatro{
         grid-area: b1;
-        @extend .productosUno;
+        @extend .grillaDos;
     }
     
     .productosCinco{
         grid-area: b2;
-        @extend .productosUno;
-        width: 87%
+        @extend .grillaDos;
     }
     
     .productosSeis{
         grid-area: b3;
-        @extend .productosUno;
-        width: 89%
+        @extend .grillaDos;;
     }

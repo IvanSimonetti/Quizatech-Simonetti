@@ -36,6 +36,9 @@ h4 {
   font-size: 35px;
   margin-top: 7px; }
 
+.mediopago :hover {
+  background-color: gray; }
+
 #tituloUno {
   display: flex;
   height: 50px;
@@ -117,7 +120,7 @@ img {
   img.imagenPrincipal {
     width: 100%;
     padding-top: 2%;
-    transform: scale(1.2, 0.1 0.1);
+    transform: scale(1.2, 1.1);
     transition: 3s; }
   img.imagenProd {
     width: 100%;
@@ -136,21 +139,12 @@ a {
   justify-content: center; }
 
 /* Boton compra*/
-button.botoncompraUno {
+button.botoncompra {
   background-color: #33ccff;
   color: gray;
-  align-items: center;
-  justify-content: center; }
-
-button.botoncompraDos {
-  background-color: #33ccff;
-  color: gray;
-  align-items: center;
-  justify-content: center; }
-
-button.botoncompraTres {
-  background-color: #33ccff;
-  color: gray;
+  width: 35%;
+  border-radius: 5px;
+  margin: 0 auto;
   align-items: center;
   justify-content: center; }
 
@@ -226,7 +220,7 @@ footer {
     font-size: 20px; }
   h3 {
     text-align: center;
-    width: 100%px;
+    width: 100%;
     font-size: 30px;
     margin-top: 7px; }
   h4 {
@@ -299,7 +293,7 @@ footer {
   .imagenPrincipal {
     width: 100%;
     padding-top: 2%;
-    transform: scale(1.2, 0.1 0.1);
+    transform: scale(1.2, 1.1);
     transition: 3s; }
   .imagenProd {
     width: 95%;
@@ -313,7 +307,6 @@ footer {
   a {
     color: gray;
     margin-right: 5px;
-    font-size: px;
     text-decoration: none; }
   /*Formulario Contacto*/
   .container {

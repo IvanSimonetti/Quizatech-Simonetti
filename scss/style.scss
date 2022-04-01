@@ -34,7 +34,7 @@
         &.imagenPrincipal{
             width:100%;
             padding-top:2%;
-            transform: scale(1.2,.1.1);
+            transform: scale(1.2,1.1);
             transition: 3s;
         }
         
@@ -59,6 +59,12 @@
         justify-content: center;
     }
     
+    /*Form ingresar*/
+
+    .formIngresar{
+        padding: 2rem;
+    }
+
     /* Boton compra*/
     
     button{
@@ -66,33 +72,22 @@
         @mixin botones ($colorBtn , $colorUno){
             background-color:$colorBtn;
             color:$colorUno;
+            width: 35%;
+            border-radius: 5px;
+            margin: 0 auto;
         }
 
-        &.botoncompraUno{
-            @include botones(#33ccff, gray);
-            align-items: center ;
-            justify-content: center;
-        }
-        
-        &.botoncompraDos{
-            @include botones(#33ccff, gray);
-            align-items: center;
-            justify-content: center;
-        }
-        
-        &.botoncompraTres{
+        &.botoncompra{
             @include botones(#33ccff, gray);
             align-items: center;
             justify-content: center;
         }
     }
        
-    ol{
-    
+    ol{    
         text-decoration:none;
         text-align:center;
-        font-size: 20px;
-    
+        font-size: 20px;   
     }
     
     ul{
@@ -191,7 +186,7 @@
     
     h3{
         text-align:center;
-        width: 100%px;
+        width: 100%;
         font-size: 30px;
         margin-top: 7px;
             
@@ -304,7 +299,7 @@
     .imagenPrincipal{
         width:100%;
         padding-top:2%;
-        transform: scale(1.2,.1.1);
+        transform: scale(1.2,1.1);
         transition: 3s;
     }
         
@@ -318,13 +313,11 @@
         display:block;margin:auto;
         width: 70%;
         margin-bottom:3%;   
-    }
-        
+    }        
         
     a{
         color:$colorUno;
         margin-right: 5px;
-        font-size: px;
         text-decoration: none;  
     }
         

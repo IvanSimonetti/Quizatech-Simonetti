@@ -1,8 +1,8 @@
  /*Titulos*/
     
- h1{
-    height:1px;
-    width: 5px;
+h1{
+    height:4px;
+    width: 100%;
     margin-bottom:12px;
     font-size:68px;
 }
@@ -26,17 +26,8 @@ h4{
     margin-top: 7px;
 }
 
-.mediopago :hover{
-    background-color: $colorUno;
-}
-
 #tituloUno{
-    display: flex;
-    height:50px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 43px;
+    font-size: 68px;
 }
 
 .menu{
